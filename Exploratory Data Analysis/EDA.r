@@ -81,4 +81,3 @@ pie(age_group_counts, labels = paste( "\n", round(age_group_percentages3, 2), "%
 # Add legend
 legend("topleft", legend = paste(names(age_group_counts3)), fill = rainbow(length(age_group_counts3)), cex = 0.9)
 title("Age  of Housewife")
- 
